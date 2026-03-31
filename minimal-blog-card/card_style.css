@@ -17,6 +17,7 @@
     margin: 0;
     display: inline-block;
     font-size: 0.625rem; 
+    font-weight: 900;
     padding: 6px 16px;
     background-color: #F2EAFD;
     color: #7C19EE;
@@ -27,7 +28,7 @@
 .blog-card__title {
     margin: 0;
     font-size: 1.125rem;
-
+    font-weight: 900;
     color: #20293A;
     margin-bottom: 6px;
 }
