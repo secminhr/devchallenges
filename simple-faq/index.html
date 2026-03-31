@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="preconnect" href="https://rsms.me/">
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -20,9 +23,56 @@
         padding: 0;
         box-sizing: border-box;
       } */
+      :root {
+        font-family: Inter, sans-serif;
+        font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
+      }
 
       body {
         height: 100vh;
+        font-size: 1rem;
+        font-weight: 400;
+        background-color: #F8FAFC;
+      }
+
+      h1 {
+        font-size: 2.25rem;
+        font-weight: 600;
+      }
+
+      header {
+        text-align: center;
+        padding-top: 48px;
+        padding-bottom: 48px;
+        background-color: white;
+      }
+
+      dl {
+        padding: 24px;
+      }
+
+      dt {
+        font-size: 1.5rem;
+        font-weight: 600;
+        padding-top: 40px;
+      }
+
+      dd {
+        margin-left: 0;
+        line-height: 2rem;
+      }
+
+      dd > ol {
+        padding-left: 25px;
+      }
+
+      dd > ul {
+        padding-left: 25px;
+      }
+
+      dd:not(:last-child) {
+        padding-bottom: 24px;
+        border-bottom: 1px solid #D2D5DA;
       }
 
       .author-info {
